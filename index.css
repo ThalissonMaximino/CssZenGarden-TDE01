@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background: #f0f0f0 url('https://www.transparenttextures.com/patterns/asfalt-dark.png') repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffb347; /* Laranja de Naruto */
+	list-style: none;
+}
+
+h1, h2, h3 {
+    font-family: "Verdana", sans-serif;
+    color: #ff6a00; /* Laranja mais forte, representando a roupa do Naruto */
+    text-shadow: 3px 3px 5px #000; /* Sombra preta como um destaque forte */
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, #ff6a00 0%, #b34700 100%); /* Gradiente que remete à força */
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #333; /* A borda preta para lembrar o contorno dos personagens */
+}
+
+h1 {
+    font-size: 3em;
+    background-image: url('https://i.pinimg.com/originals/8e/23/a4/8e23a49e9231c41f7f07314ba4e6a287.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    font-size: 2em;
+    background-image: url('https://i.imgur.com/2ZmY1zl.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.page-wrapper {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff url('https://i.imgur.com/Y3uPHoA.jpg') no-repeat center center; /* Fundo estilo pergaminho */
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.4); /* Efeito de profundidade */
+}
+
+a {
+    color: #ff6a00; /* Cor laranja de destaque */
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #ff6a00;
+}
+
+a:hover {
+    border-bottom: 2px solid #333;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-align: justify;
+    color: white; /* Texto escuro para contraste */
+}
+
+.intro, .main, .sidebar {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #222; /* Fundo preto, lembrando o símbolo da Vila Oculta da Folha */
+    border: 1px solid #ff6a00;
+    border-radius: 15px;
+    color: #fff;
+}
+
+button {
+    background: linear-gradient(135deg, #ff6a00, #b34700); /* Botões com gradiente laranja */
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #b34700, #ff6a00);
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+}
+
+footer a {
+    color: #ff6a00;
+    text-decoration: underline;
+}
+
+.zen-github, .zen-license, .zen-accessibility {
+    margin: 0 10px;
+}
+
+/* Estilizações especiais inspiradas em Naruto */
+.extra1, .extra2, .extra3, .extra4, .extra5, .extra6 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Anbu_logo.svg/1200px-Anbu_logo.svg.png'); /* Logo ANBU */
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+}
+
