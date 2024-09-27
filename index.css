@@ -5,54 +5,70 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #ffb347; /* Laranja de Naruto */
-	list-style: none;
+    background-color: #ffb347; 
 }
 
 h1, h2, h3 {
     font-family: "Verdana", sans-serif;
-    color: #ff6a00; /* Laranja mais forte, representando a roupa do Naruto */
-    text-shadow: 3px 3px 5px #000; /* Sombra preta como um destaque forte */
+    color: #ff6a00; 
+    text-shadow: 3px 3px 5px #000; 
     letter-spacing: 2px;
-    background: linear-gradient(135deg, #ff6a00 0%, #b34700 100%); /* Gradiente que remete à força */
+    background: linear-gradient(135deg, #ff6a00 0%, #b34700 100%); 
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid #333; /* A borda preta para lembrar o contorno dos personagens */
+    border: 2px solid #333; 
 }
 
 h1 {
     font-size: 3em;
-    background-image: url('https://i.pinimg.com/originals/8e/23/a4/8e23a49e9231c41f7f07314ba4e6a287.png');
-    background-size: 100px;
+    background-image: url('https://i.pinimg.com/originals/cc/19/04/cc1904b10f58c02eb630302062507534.jpg'); 
     background-repeat: no-repeat;
     background-position: right;
 }
 
 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     font-size: 2em;
-    background-image: url('https://i.imgur.com/2ZmY1zl.png');
-    background-size: 50px;
-    background-repeat: no-repeat;
+    height: 245px;
+    background-image: url('https://i.pinimg.com/736x/1c/91/19/1c91190e8d085bcc5f128ba0ba4be317.jpg'); 
     background-position: right;
 }
 
 h3 {
     font-size: 1.5em;
     margin-bottom: 20px;
+    background-image: url(' https://i.pinimg.com/736x/da/f3/a1/daf3a10fc2a9a99cc3cc6dc2d2f08c6b.jpg ' ); 
+    height: 240px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.preamble h3{
+    background-image: url(' https://i.pinimg.com/736x/89/cb/3e/89cb3e6a86404803261434fdf620a89f.jpg' ); 
+    height: 240px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
+.explanation h3{
+    background-image: url(' https://i.pinimg.com/736x/83/16/4d/83164dd6da95aae5c0b8fe59d65ce30e.jpg' ); 
+    height: 240px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 .page-wrapper {
     width: 80%;
     margin: 20px auto;
-    background: #fff url('https://i.imgur.com/Y3uPHoA.jpg') no-repeat center center; /* Fundo estilo pergaminho */
-    background-size: cover;
+    background: #fff url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9pNd4XIIBrR88b15YHdSRBPeubLOV3imVgg&s') no-repeat center center; 
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.4); /* Efeito de profundidade */
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.4); 
 }
 
 a {
-    color: #ff6a00; /* Cor laranja de destaque */
+    color: #ff6a00; 
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px solid #ff6a00;
@@ -67,20 +83,20 @@ p {
     font-size: 1.2em;
     line-height: 1.8em;
     text-align: justify;
-    color: white; /* Texto escuro para contraste */
+    color: white; 
 }
 
 .intro, .main, .sidebar {
     margin-bottom: 40px;
     padding: 20px;
-    background: #222; /* Fundo preto, lembrando o símbolo da Vila Oculta da Folha */
+    background: #222; 
     border: 1px solid #ff6a00;
     border-radius: 15px;
     color: #fff;
 }
 
 button {
-    background: linear-gradient(135deg, #ff6a00, #b34700); /* Botões com gradiente laranja */
+    background: linear-gradient(135deg, #ff6a00, #b34700); 
     border: 2px solid #333;
     border-radius: 5px;
     padding: 10px 20px;
@@ -111,13 +127,12 @@ footer a {
     margin: 0 10px;
 }
 
-/* Estilizações especiais inspiradas em Naruto */
+
 .extra1, .extra2, .extra3, .extra4, .extra5, .extra6 {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Anbu_logo.svg/1200px-Anbu_logo.svg.png'); /* Logo ANBU */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6f/Anbu_logo.svg'); 
     background-size: 50px;
     background-repeat: no-repeat;
     width: 100%;
     height: 100px;
     margin: 10px 0;
 }
-
