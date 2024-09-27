@@ -6,17 +6,20 @@ body {
     padding: 0;
     text-align: center;
     background-color: #ffb347; 
+    text-decoration: none;
 }
 
 h1, h2, h3 {
     font-family: "Verdana", sans-serif;
-    color: #ff6a00; 
-    text-shadow: 3px 3px 5px #000; 
+    color: #d45c07; 
+    text-shadow: 3px 3px 5px #e8e0e0; 
     letter-spacing: 2px;
     background: linear-gradient(135deg, #ff6a00 0%, #b34700 100%); 
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #333; 
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 h1 {
@@ -24,6 +27,7 @@ h1 {
     background-image: url('https://i.pinimg.com/originals/cc/19/04/cc1904b10f58c02eb630302062507534.jpg'); 
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 20%;
 }
 
 h2 {
@@ -33,8 +37,10 @@ h2 {
     gap: 10px;
     font-size: 2em;
     height: 245px;
-    background-image: url('https://i.pinimg.com/736x/1c/91/19/1c91190e8d085bcc5f128ba0ba4be317.jpg'); 
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7bca540e-90ca-440d-9159-f7786e51757e/d3hnj9v-a52d543d-7abe-46b7-bb4b-e44197d599f3.jpg/v1/fill/w_818,h_174,q_75,strp/naruto_header_by_mitch_baseball_d3hnj9v-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTc0IiwicGF0aCI6IlwvZlwvN2JjYTU0MGUtOTBjYS00NDBkLTkxNTktZjc3ODZlNTE3NTdlXC9kM2huajl2LWE1MmQ1NDNkLTdhYmUtNDZiNy1iYjRiLWU0NDE5N2Q1OTlmMy5qcGciLCJ3aWR0aCI6Ijw9ODE4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.cCh7r4GMm1_Qcs5-oPxjvtrr7Zh2l-v5ZLAakVuFMBI'); 
     background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h3 {
@@ -135,4 +141,8 @@ footer a {
     width: 100%;
     height: 100px;
     margin: 10px 0;
+}
+  li  {
+    text-decoration: none;
+    list-style: none;
 }
